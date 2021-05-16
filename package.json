@@ -1,0 +1,27 @@
+{
+  "name": "video-audio-stream-signaling-server",
+  "version": "0.0.1",
+  "description": "Signaling server for WebRTC video/audio broadcasting",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "path": "^0.12.7",
+    "pem": "^1.12.3",
+    "socketio": "^1.0.0",
+    "uuid": "^3.1.0"
+  },
+  "engines": {
+    "node": "5.8.0"
+  },
+  "keywords": [
+    "node",
+    "socket.io"
+  ],
+  "author": "Amr Halim",
+  "license": "ISC"
+}

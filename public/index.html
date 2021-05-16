@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<style type="text/css">
+			#message {
+				font-size: 22;
+			}
+			.error {
+				background-color: #ffdddd;
+			}
+			.info {
+				background-color: #ffffcc;
+			}
+		</style>
+	</head>
+	<body>
+		<div style="width:800px; margin:0 auto;">
+			<center>
+				<h1>Video/Audio Streaming Demo</b></h1>
+				<button id="call">Broadcast</button> OR 
+				<button id="receive">Watch</button>
+				<p id="message"></p>
+			</center>
+			<video id="video" width="100%" height="100%" autoplay controls></video>
+		</div>
+		<script
+		  src="https://code.jquery.com/jquery-3.2.1.min.js"
+		  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		  crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script>
+		<script src="./client.js"></script>
+	</body>
+</html>
